@@ -36,16 +36,16 @@ Uhat ja riskit pitää tunnistamisen myös analysoida. Se tarkoittaa, että joka
 |                    | 2. Salaisen datan suojaaminen |
 |                    | 3. Salaisen datan jättäminen järjestelmän ulkopuolelle. |
 |Peukalointi | 1. Käyttöoikeuksien toteutus ja mallinnus oikein |
-|            | 2. Hash-algoritmien käyttö |
+|            | 2. Tiivistefunktioiden käyttö (hash function, hash algorithm) |
 |            | 3. MAC (viestin allekirjoitus) |
 |            | 4. Digitaaliset allekirjoitukset |
-|            | 5. Peukalointiturvalliset protokollat |
+|            | 5. Peukalointiturvalliset protokollat (Tamper-proof protocol) |
 |Jäljitettävyys | 1. Digitaaliset allekirjoitukset |
 |               | 2. Aikaleimat |
 |               | 3. Jäljitysketjun varmistaminen (audit trail) |
 |Tietovuoto | 1. Käyttöoikeuksien rajaaminen |
 |           | 2. Yksityisyyden takaavat protokollat |
-|           | 3. Tiedon salaaminen |
+|           | 3. Tiedon salaaminen (encryption) |
 |           | 4. Salaisen datan suojaaminen |
 |           | 5. Salaisen datan jättäminen järjestelmän ulkopuolelle. |
 |Palvelunesto | 1. Sisäänkirjautuminen ja käyttäjien tunnistaminen |
