@@ -32,12 +32,33 @@ Uhat ja riskit pitää tunnistamisen myös analysoida. Se tarkoittaa, että joka
 
 | Uhkatyyppi | Varautusmiskeinoja |
 |------------|--------------------|
-|Identiteettivarkaus| 1. Sisäänkirjautuminen ja käyttäjien tunnistaminen |
-|                   | 2. Salaisen datan suojaaminen |
-|                   | 3. Salaisen datan siirtäminen järjestelmän ulkopuolelle. |
+|Identiteettivarkaus | 1. Sisäänkirjautuminen ja käyttäjien tunnistaminen |
+|                    | 2. Salaisen datan suojaaminen |
+|                    | 3. Salaisen datan siirtäminen järjestelmän ulkopuolelle. |
 |Peukalointi | 1. Käyttöoikeuksien toteutus ja mallinnus oikein |
 |            | 2. Hash-algoritmien käyttö |
+|            | 3. MAC (viestin allekirjoitus) |
+|            | 4. Digitaaliset allekirjoitukset |
+|            | 5. Peukalointiturvalliset protokollat |
+|Jäljitettävyys | 1. Digitaaliset allekirjoitukset |
+|               | 2. Aikaleimat |
+|               | 3. Audit trail -vaatimukset täyttävä loki |
+|Tietovuoto | 1. Käyttöoikeuksien rajaaminen |
+|           | 2. Yksityisyyden takaavat protokollat |
+|           | 3. Tiedon salaaminen |
+|           | 4. Salaisen datan suojaaminen |
+|           | 5. Salaisen datan siirtäminen järjestelmän ulkopuolelle. |
+|Palvelunesto | 1. Sisäänkirjautuminen ja käyttäjien tunnistaminen |
+|             | 2. Käyttöoikeuksien rajaaminen |
+|             | 3. Tekninen suodatus (filtering) |
+|             | 4. Kuristus-tekniikat (throttling) |
+|             | 5. Palvelutason takaaminen (Quality of Service) -tekniikat |
+|Käyttöoikeudet | 1. Suoritetaan toiminnot matalimmalla sopivalla oikeustasolla. |
 
+Jokaisesta varautumiskeinosta voisi kirjoittaa runsaasti kuvausta ja käytännön esimerkkejä siitä mitä asia käytännössä projektissa voi tarkoittaa, mutta taulukosta on apua kun asiasta keskustellaan ja mietitään erilaisia mahdollisia toimenpiteitä.
+
+Olennaista on tehdä tietoinen päätös siitä mihin uhkiin halutaan varautua ja millä tavalla. Päätös voi olla myös jättää suojautumatta jotain uhkaa vastaan, mikäli se ei ole mielekästä 
+uhan todennäköisyyden, vaikutuksen ja kustannusten analysoinnin perusteella.
 
 
 # Lisenssi
