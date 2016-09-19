@@ -6,7 +6,7 @@ Osittainen suomennos [OWASP:n uhka-analyysiohjeesta](https://www.owasp.org/index
 # Mikä on uhka-analyysi 
 
 Uhka-analyysi, tai uhkamallinnus (threat modeling), pyrkii tunnistamaan ja dokumentoimaan järjestelmän kriittiset tiedot, rajapinnat, ulkoiset riippuvuudet ja tietovirrat. Järjestelmästä saadun ymmärryksen perusteella voidaan miettiä millaisia 
-potentiaalisia uhkia järjestelmään kohdistuu, kuinka todennäköisiä ne ovat, mitä seurauksia on uhan realisoitumisella. OWASP tarjoaa ohjeessaan joitakin valmiita luokittelumalleja uhille ja varautumiskeinoille
+potentiaalisia uhkia järjestelmään kohdistuu, kuinka todennäköisiä ne ovat, mitä seurauksia on uhan realisoitumisella. [OWASP](https://www.owasp.org) tarjoaa ohjeessaan joitakin valmiita luokittelumalleja uhille ja varautumiskeinoille
 suojautumista varten, joita on suomennettu alla.
 
 ## STRIDE-luokittelu
@@ -28,7 +28,7 @@ Uhat ja riskit pitää tunnistamisen myös analysoida. Se tarkoittaa, että joka
 * Tunnistetaan reitit ja tavat, joilla riski voi realisoitua. Yksittäinen riski voi toteutua monesta syystä.
 * Kun päästään riittävän syvälle niin kullekin syylle on löydettävissä kontrolli, esto tai muu varautumiskeino.
 
-### Varautumiskeinot
+### Varautumiskeinot (mitigating controls)
 
 | Uhkatyyppi | Varautusmiskeinoja |
 |------------|--------------------|
@@ -59,6 +59,19 @@ Jokaisesta varautumiskeinosta voisi kirjoittaa runsaasti kuvausta ja käytännö
 
 Olennaista on tehdä tietoinen päätös siitä mihin uhkiin halutaan varautua ja millä tavalla. Päätös voi olla myös jättää suojautumatta jotain uhkaa vastaan, mikäli se ei ole mielekästä 
 uhan todennäköisyyden, vaikutuksen ja kustannusten analysoinnin perusteella.
+
+## Uhkien sitominen riskienhallintaan
+
+Uhkamallinnus on osa projektin riskienhallintaa, koska se on keino tunnistaa riskejä. Periaatteessa on viisi tapaa reagoida tunnistettuun uhkaan, joka muodostaa riskin projektille ja järjestelmälle:
+
+1. Ei tehdä mitään. Toivotaan että mitään ikävää ei tapahdu.
+2. Tiedotetaan riskistä. Esimerkiksi kerrotaan käyttäjille tunnetusta ongelmasta.
+3. Lievennetään riskiä. Lisätään kontrolleja ja mekanismeja, joilla uhka ei muodosta niin isoa riskiä.
+4. Hyväksytään riski tietoisella päätöksellä. Käytännössä johtoryhmän/tuoteomistajan asia päättää.
+5. Siirretään riski toiselle osapuolelle. Esimerkiksi sopimuksen tai vakuutuksen avulla.
+6. Poistetaan riski. Esimerkiksi luottokorttitiedot - päätetään että ei käsitellä järjestelmässä luottokorttitietoja.
+
+Olennaista on päätöksenteossa erottaa riski, jonka uhka muodostaa tietojärjestelmälle siitä millaisen riskin uhka muodostaa operatiivisen toiminnan jatkuvuudelle. Riskienhallinnassa on tärkeää ajatella liiketoiminnan ja asiakkaan näkökulmasta riskiä, eikä hallita uhkia teknisinä ongelmina.
 
 
 
