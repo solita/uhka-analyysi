@@ -14,14 +14,14 @@ STRIDE ei ole ainoa menetelmä uhkien luokitteluun systemaattisesti, mutta se so
 Repudiation, Information disclosure, Denial of service, Elevation of privilege. Lyhennöskin voidaan toki suomentaa, mutta silloin on vaikeaa hahmottaa mikä on alkuperäinen lähde.
 
 
-|Tyyppi|Esimerkit|Kontrolli|
-|------|---------|–--------|
-|Identiteettivarkaus (Spoofing)| Toisen käyttäjän tunnusten käyttäminen ilman lupaa. Tekeytyminen toiseksi käyttäjäksi. | Käyttäjien tunnistus, kirjautuminen |
-|Peukalointi (Tampering)| Tiedon muuuttaminen, esimerkiksi tietokannan sisällön peukalointi tai verkon yli tapahtuvan tiedonsiirron sisällön manipulointi. | Integriteetti |
-|Jäljitettävyys (Repudiation)| Toimintojen suorittaminen siten että jälkikäteen ei voida selvittää mitä on tapahtunut. | Kiistämättömyys |  
-|Tietovuoto (Information disclosure)| Tietosisällön lukeminen luvatta, esimerkiksi siirrettäessä tietoa verkossa. | Luottamuksellisuus  |
-|Palvelunesto (Denial of service)| Järjestelmän saattaminen tilaan, jossa sitä ei voida käyttää normaalisti. | Saatavuus | 
-|Käyttöoikeudet (Elevation of privilege)| Käyttövaltuuksien ylittäminen, jotta voi päästä käsiksi tietoon tai toimintoon ilman lupaa.| Käyttöoikeudet | 
+| Tyyppi                 | Esimerkit                                                       | Kontrolli                         |
+|------------------------|-----------------------------------------------------------------|-----------------------------------|
+|Identiteettivarkaus (Spoofing) | Toisen käyttäjän tunnusten käyttäminen ilman lupaa. Tekeytyminen toiseksi käyttäjäksi. | Käyttäjien tunnistus, kirjautuminen |
+|Peukalointi (Tampering) | Tiedon muuuttaminen, esimerkiksi tietokannan sisällön peukalointi tai verkon yli tapahtuvan tiedonsiirron sisällön manipulointi. | Integriteetti |
+|Jäljitettävyys (Repudiation) | Toimintojen suorittaminen siten että jälkikäteen ei voida selvittää mitä on tapahtunut. | Kiistämättömyys |  
+|Tietovuoto (Information disclosure) | Tietosisällön lukeminen luvatta, esimerkiksi siirrettäessä tietoa verkossa. | Luottamuksellisuus  |
+|Palvelunesto (Denial of service) | Järjestelmän saattaminen tilaan, jossa sitä ei voida käyttää normaalisti. | Saatavuus | 
+|Käyttöoikeudet (Elevation of privilege) | Käyttövaltuuksien ylittäminen, jotta voi päästä käsiksi tietoon tai toimintoon ilman lupaa.| Käyttöoikeudet | 
 
 
 Uhat ja riskit pitää tunnistamisen myös analysoida. Se tarkoittaa, että jokainen uhka/riski todella ymmärretään priorisointia ja toimenpiteiden suunnittelua varten.
