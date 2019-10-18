@@ -17,7 +17,7 @@ STRIDE ei ole ainoa menetelmä uhkien luokitteluun systemaattisesti, mutta se so
 | Tyyppi                 | Esimerkit                                                       | Kontrolli                         |
 |------------------------|-----------------------------------------------------------------|-----------------------------------|
 |Identiteettivarkaus (Spoofing) | Toisen käyttäjän tunnusten käyttäminen ilman lupaa. Tekeytyminen toiseksi käyttäjäksi. | Käyttäjien tunnistus, kirjautuminen (Authentication) |
-|Peukalointi (Tampering) | Tiedon muuuttaminen, esimerkiksi tietokannan sisällön peukalointi tai verkon yli tapahtuvan tiedonsiirron sisällön manipulointi. | Tiedon eheys (Integrity) |
+|Peukalointi (Tampering) | Tiedon muuttaminen, esimerkiksi tietokannan sisällön peukalointi tai verkon yli tapahtuvan tiedonsiirron sisällön manipulointi. | Tiedon eheys (Integrity) |
 |Jäljitettävyys (Repudiation) | Toimintojen suorittaminen siten että jälkikäteen ei voida selvittää mitä on tapahtunut. | Kiistämättömyys (non-repudiation) |  
 |Tietovuoto (Information disclosure) | Tietosisällön lukeminen luvatta, esimerkiksi siirrettäessä tietoa verkossa. | Luottamuksellisuus  (Confidentiality) |
 |Palvelunesto (Denial of service) | Järjestelmän saattaminen tilaan, jossa sitä ei voida käyttää normaalisti. | Saatavuus (Availability) | 
