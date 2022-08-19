@@ -24,7 +24,7 @@ STRIDE ei ole ainoa menetelmä uhkien luokitteluun systemaattisesti, mutta se so
 |Käyttövaltuuksien laajentaminen (Elevation of privilege) | Käyttövaltuuksien ylittäminen, jotta voi päästä käsiksi tietoon tai toimintoon ilman lupaa.| Käyttöoikeudet/käyttövaltuudet (Authorization) | 
 
 
-Uhat ja riskit pitää tunnistamisen myös analysoida. Se tarkoittaa, että jokainen uhka/riski todella ymmärretään priorisointia ja toimenpiteiden suunnittelua varten.
+Uhat ja riskit pitää tunnistamisen lisäksi myös analysoida. Se tarkoittaa, että jokainen uhka/riski todella ymmärretään priorisointia ja toimenpiteiden suunnittelua varten.
 * Tunnistetaan reitit ja tavat, joilla riski voi realisoitua. Yksittäinen riski voi toteutua monesta syystä.
 * Kun päästään riittävän syvälle niin kullekin syylle on löydettävissä kontrolli, esto tai muu varautumiskeino.
 
